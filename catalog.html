@@ -49,32 +49,32 @@
       </li>
     </ul>
   </section>
-  <section class="shoose-product">
+  <aside class="сhoose-product">
     <form class="producers-groups" action="https://echo.htmlacademy.ru" method="get">
       <h2>Производители:</h2>
-      <label>baxter of california<input type="checkbox" name="baxter of california" checked>
+      <label>baxter of california<input type="checkbox" name="producers[]" value="baxter of california" checked>
       </label><br>
-      <label>mr natty<input type="checkbox" name="mr natty">
+      <label>mr natty<input type="checkbox" name="producers[]" value="mr natty">
       </label><br>
-      <label>suavecito<input type="checkbox" name="suavecito" checked>
+      <label>suavecito<input type="checkbox"  name="producers[]" value="suavecito" checked>
       </label><br>
-      <label>malin+goetz<input type="checkbox" name="malin+goetz">
+      <label>malin+goetz<input type="checkbox" name="producers[]" value="suavecito">
       </label><br>
-      <label>murray`s<input type="checkbox" name="murray`s">
+      <label>murray`s<input type="checkbox" name="producers[]" value="murray`s">
       </label><br>
-      <label>american crew<input type="checkbox" checked name="american crew">
+      <label>american crew<input type="checkbox"  name="producers[]" value="american crew" checked>
       </label><br>
 
       <h2>Группы товаров:</h2>
-      <label>Бритвенные принадлежности<input type="radio" name="shaving">
+      <label>Бритвенные принадлежности<input type="radio" name="producers[]" value="shaving">
       </label><br>
-      <label>Средства для ухода<input type="radio" name="care" checked>
+      <label>Средства для ухода<input type="radio" name="producers[]" value="care" checked>
       </label><br>
-      <label>Аксессуары<input type="radio" name="accessories">
+      <label>Аксессуары<input type="radio" name="producers[]" value="accessories">
       </label><br>
       <button class="btn" type="submit">Показать</button>
     </form>
-  </section>
+  </aside>
   <div class="catalog">
     <article class="catalog-item">
       <a href="catalog-item.html"><img src="http://placehold.it/" width="150" height="100" alt="Набор для путешествий"></a>
@@ -82,7 +82,7 @@
       <div class="price">2 900 руб.</div>
       <a href="#">Купить</a>
     </article>
-    <article class="catalog-item-two">
+    <article class="catalog-item">
       <a href="#"><img src="http://placehold.it/" width="150" height="100" alt="Увлажняющий кондиционер"></a>
       <p>Увлажняющий кондиционер<br>
         "BAXTER OF CALIFORNIA"</p>
@@ -91,7 +91,7 @@
       </div>
       <a href="#">Купить</a>
     </article>
-    <article class="catalog-item-three">
+    <article class="catalog-item">
       <a href="#"><img src="http://placehold.it/" width="150" height="100" alt="Гель для волос"></a>
       <p>Гель для волос<br>
         "SUAVECITO"</p>
@@ -100,7 +100,7 @@
       </div>
       <a href="#">Купить</a>
     </article>
-    <article class="catalog-item-five">
+    <article class="catalog-item">
       <a href="#"><img src="http://placehold.it/" width="150" height="100" alt="Глина для укладки волос"></a>
       <p>Глина для укладки волос
         <br>"AMERICAN CREW"</p>
@@ -109,7 +109,7 @@
       </div>
       <a href="#">Купить</a>
     </article>
-    <article class="catalog-item-four">
+    <article class="catalog-item">
       <a href="#"><img src="http://placehold.it/" width="150" height="100" alt="Гель для волос"></a>
       <p>Гель для волос<br>
         "AMERICAN CREW"</p>
@@ -118,8 +118,8 @@
       </div>
       <a href="#">Купить</a>
     </article>
-    <article class="catalog-item-six">
-      <a href="#"><img src="http://placehold.it/" width="150" height="100" alt="Набор для бритья"></a>
+    <article class="catalog-item">
+      <a href="#"><img src="http://placehold.it/150x100" alt="Набор для бритья"></a>
       <p>Набор для бритья<br>
         "BAXTER OF CALIFORNIA"</p>
       <div class="price">
@@ -128,7 +128,7 @@
       <a href="#">Купить</a>
     </article>
   </div>
-  <div class="references">
+  <div class="pages">
     <a href="#">1</a>
     <a href="#" class="active">2</a>
     <a href="#">3</a>
