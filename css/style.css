@@ -1,3 +1,11 @@
+html,
+body {
+  min-width: 1200px;
+  min-height: 1173px;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-size: 14px;
   line-height: 24px;
@@ -5,12 +13,162 @@ body {
   font-weight: bold;
   font-family: "PT Sans Narrow", Geneva;
   font-style: normal;
+
+  background-size: 1200px auto;
+
 }
+
 h1 {
   font-size: 30px;
   line-height: 42px;
+  margin-bottom: 25px;
 }
+
 h2 {
   font-size: 24px;
   line-height: 30px;
+  margin-top: 55px;
+}
+
+.main-header {
+  margin-bottom: 55px;
+
+  outline: 1px solid #71cbff;
+}
+
+.container {
+  width: 940px;
+  padding: 0 10px;
+  margin: 0 auto;
+  font-size: 14px;
+  outline: 1px solid #a7905b;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.index-logo {
+  float: left;
+  margin-right: 20px;
+  padding-left: 20px;
+  padding-top: 23px;
+  outline: 1px solid #a7905b;
+}
+
+.main-navigation {
+  width: 540px;
+  float: left;
+  outline: 1px solid red;
+}
+
+.user-block {
+  width: 140px;
+  float: right;
+  outline: 1px solid red;
+}
+
+.breadcrumbs {
+
+  margin-bottom: 55px;
+  outline: 1px solid #71cbff;
+}
+
+.producers-groups {
+
+}
+
+.сhoose-product {
+  float: left;
+  width: 220px;
+  margin-right: 20px;
+  outline: 1px solid black;
+}
+
+.catalog {
+
+  float: left;
+  width: 700px;
+  outline: 1px solid black;
+}
+
+.catalog-item {
+  width: 220px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  outline: 1px solid chartreuse;
+}
+
+.catalog-item:nth-of-type(3n) {
+
+  float: right;
+  margin-right: 0px;
+}
+
+.pages {
+
+  float: left;
+  margin-left: 240px;
+  margin-top: 45px;
+
+  outline: 1px solid black;
+}
+
+.main-footer {
+  margin-top: 50px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  outline: 1px solid blue;
+}
+
+.footer-contacts {
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+}
+
+.footer-social {
+  float: left;
+  width: 180px;
+}
+
+.footer-copyright {
+  float: right;
+  width: 180px;
+}
+
+.gallery {
+  width: 460px;
+  float: left;
+  outline: 1px solid blue;
+  margin-right: 90px;
+
+}
+
+.gallery-content {
+  float: left;
+  margin-right: 0px;
+}
+
+.main-image {
+
+}
+
+.preview-image {
+  float: left;
+  margin-right: 20px;
+}
+
+.preview-image:nth-of-type(3n) {
+  float: right;
+  margin-right: 0px;
+}
+
+.description {
+  float: right;
+  width: 390px;
+  outline: 1px solid blue;
 }
