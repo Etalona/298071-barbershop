@@ -8,14 +8,16 @@ body {
 
 body {
   font-size: 14px;
+  font-weight: 700;
   line-height: 24px;
   color: black;
   font-weight: bold;
   font-family: "PT Sans Narrow", Geneva;
   font-style: normal;
-
+text-transform: uppercase;
   background-size: 1200px auto;
-
+background: #000000;
+  color: #ffffff;
 }
 
 h1 {
@@ -33,7 +35,7 @@ h2 {
 .main-header {
   margin-bottom: 55px;
 
-  outline: 1px solid #71cbff;
+
 }
 
 .container {
@@ -55,21 +57,68 @@ h2 {
   margin-right: 20px;
   padding-left: 20px;
   padding-top: 23px;
-  outline: 1px solid #a7905b;
+
 }
 
 .main-navigation {
-  width: 540px;
+  width: 640px;
   float: left;
-  outline: 1px solid red;
-}
 
+}
+.main-navigation ul {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+  font-size: 0;
+}
+.main-navigation li {
+  display: inline-block;
+
+  font-size: 16px;
+  line-height: 20px;
+  vertical-align: top;
+}
+.main-navigation a {
+  display: block;
+  padding: 26px 20px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.main-navigation a:hover {
+  background: #242424;
+}
 .user-block {
-  width: 140px;
+  max-width: 140px;
   float: right;
-  outline: 1px solid red;
-}
 
+}
+.login {
+  position: relative;
+  display: inline-block;
+  padding: 26px 20px;
+  padding-left: 50px;
+  font-size: 16px;
+  line-height: 20px;
+  vertical-align: top;
+  color: #ffffff;
+  text-decoration: none;
+}
+.login:hover {
+  background: #242424;
+}
+.login::before {
+  content:"";
+  position: absolute;
+  top: 28px;
+  left: 20px;
+  width: 18px;
+  height: 18px;
+  background: transparent url("/img/icon-login.png") no-repeat;
+}
+main {
+  background: url("/img/fon-light.png") repeat;
+}
 .breadcrumbs {
 
   margin-bottom: 55px;
